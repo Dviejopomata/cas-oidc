@@ -1,0 +1,18 @@
+{
+  "@class": "org.apereo.cas.services.OidcRegisteredService",
+  "clientId": "client",
+  "serviceId": ".*",
+  "name": "OIDC EUIPO Portal",
+  "implicit": true,
+  "bypassApprovalPrompt": true,
+  "generateRefreshToken": true,
+  "renewRefreshToken": true,
+  "scopes": [
+    "java.util.HashSet",
+    ["profile", "openid", "email", "offline_access"]
+  ],
+  "attributeReleasePolicy": {
+    "@class": "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  },
+  "id": 3000
+}
