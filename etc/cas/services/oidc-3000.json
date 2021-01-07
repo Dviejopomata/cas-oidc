@@ -7,6 +7,7 @@
   "bypassApprovalPrompt": true,
   "generateRefreshToken": true,
   "renewRefreshToken": true,
+  "jwtAccessToken": true,
   "scopes": [
     "java.util.HashSet",
     ["profile", "openid", "email", "offline_access"]
