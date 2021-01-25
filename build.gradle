@@ -83,7 +83,15 @@ dependencies {
     // CAS dependencies/modules may be listed here statically...
     implementation "org.apereo.cas:cas-server-webapp-init:${casServerVersion}"
     implementation "org.apereo.cas:cas-server-support-json-service-registry:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-support-rest:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-support-rest-tokens:${casServerVersion}"
     implementation "org.apereo.cas:cas-server-support-oidc:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-support-ldap:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-core-web:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-core-web-api:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-core-webflow:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-core-webflow-api:${casServerVersion}"
+    implementation "org.apereo.cas:cas-server-support-actions:${casServerVersion}"
 }
 
 tasks.findByName("jibDockerBuild")
